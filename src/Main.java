@@ -2,41 +2,30 @@
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-        int count = 10;
+      /*
+      논리형 boolean 1byte
+      문자형 char 2byte
+      정수형 byte 1byte
+           short 2byte
+           char 2byte
+           int 4byte
+           long 8byte
+      실수형 float 4byte
+           double 8byte
+       */
+        boolean isFun = false;
+        System.out.println(isFun);
 
-        count = 20;
+        char c = 'f';
 
-        System.out.println(count);
+        int x = 59;
 
-        double avg;
-        avg = 11.1;
+        long y = 3434343423232L;
 
-        System.out.println(avg);
+        float f = 32.4f;
 
-        String name = "qqq";
-
-        int totalConut;
-
-        totalConut = 1000;
-
-        System.out.println(name);
-        System.out.println(totalConut);
+        double d = 3.43434343;
 
 
-        // 원의 넓이 구하기
-        double circleArea;
-
-        final double PI = 3.14;
-
-        circleArea = 3 * 3 * PI;
-
-        System.out.println(circleArea);
-
-        //기름값 표시
-        final int OIL_PRICE = 1450;
-        System.out.println(OIL_PRICE);
-
-        int totalPrice = 50 * OIL_PRICE;
-        System.out.println(totalPrice);
     }
 }
