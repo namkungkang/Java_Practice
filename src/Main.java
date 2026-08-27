@@ -2,33 +2,30 @@
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
+        //if문
+        int x = 50;
+        int y = 50;
+        if(x > y) {
+                System.out.println("x는 y보다 작습니다.");
+        }
+        //중괄호 없는 구문
+        if(x > y)
+            System.out.println("x와 y는 같다.");
+        System.out.println("test");
 
-        // 산술연산자
-        int i1 = -5;
-        int i2 = -i1;
-        int i3 = +i1;
-        System.out.println(i1);
-        System.out.println(i2);
-        System.out.println(i3);
+        //else if, else 추가문
+        if (x > y) {
+            System.out.println("같다");
+        } else if (x < y) {
+            System.out.println("아니유");
+            
+        }else  {
+            System.out.println("다르다");
+        }
 
-        int i4 = ++i3;
-        System.out.println(i4);
-        System.out.println(i1);
-
-        int i5 = i3--;
-        System.out.println(i5);
-        System.out.println(i3);
-
-        int i = 30;
-        int j = 20;
-
-        System.out.println(i + j);
-
-        System.out.println(i / j);
-
-        System.out.println(i / (double)j);
-
-        //비교연산자ㅎ
 
     }
+
+
+
 }
