@@ -2,22 +2,41 @@
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-        //논리 연산자
-       boolean a = true;
-       boolean b = false;
-       boolean c = true;
+    //swith문
+    int value;
+    value = 2;
 
-        System.out.println(a == b);
-        System.out.println(a || b);
-        System.out.println(a && c);
-        System.out.println(b || c);
-        System.out.println(a || c);
-        System.out.println(b || b);
-        System.out.println(a ^ c);
+    switch (value) {
+        case 1:
+            System.out.println("바보");
+            break;
+        case 2:
+            System.out.println("x");
+            break;
+        default:
+            System.out.println("아니지롱");
 
-        //삼항 연산자
-        int b1 = (5<4) ? 20 : 30;
-        System.out.println(b1);
+
+
+    }
+    String str =  "바보" ;
+    switch (str) {
+        case "바보" :
+            System.out.println("안녕");
+
+        case "멍청이" :
+            System.out.println("아니다");
+            break;
+        default:
+            System.out.println("하이");
+
+
+
+    }
+
+
+
+
     }
 
 
