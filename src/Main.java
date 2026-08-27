@@ -2,30 +2,33 @@
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-      /*
-      논리형 boolean 1byte
-      문자형 char 2byte
-      정수형 byte 1byte
-           short 2byte
-           char 2byte
-           int 4byte
-           long 8byte
-      실수형 float 4byte
-           double 8byte
-       */
-        boolean isFun = false;
-        System.out.println(isFun);
 
-        char c = 'f';
+        // 산술연산자
+        int i1 = -5;
+        int i2 = -i1;
+        int i3 = +i1;
+        System.out.println(i1);
+        System.out.println(i2);
+        System.out.println(i3);
 
-        int x = 59;
+        int i4 = ++i3;
+        System.out.println(i4);
+        System.out.println(i1);
 
-        long y = 3434343423232L;
+        int i5 = i3--;
+        System.out.println(i5);
+        System.out.println(i3);
 
-        float f = 32.4f;
+        int i = 30;
+        int j = 20;
 
-        double d = 3.43434343;
+        System.out.println(i + j);
 
+        System.out.println(i / j);
+
+        System.out.println(i / (double)j);
+
+        //비교연산자ㅎ
 
     }
 }
