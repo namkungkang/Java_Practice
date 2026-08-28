@@ -1,44 +1,34 @@
+import java.util.Scanner;
+
 //TIP 코드를 <b>실행</b>하려면 <shortcut actionId="Run"/>을(를) 누르거나
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-    //swith문
-    int value;
-    value = 2;
+        //while문
 
-    switch (value) {
-        case 1:
-            System.out.println("바보");
+        int total = 0;
+        int i = 1;
+
+        while (i < 10) {
+            System.out.println(i + 1);
+            i++;
             break;
-        case 2:
-            System.out.println("x");
+        }
+        while (i <= 100) {
+
+            total = total + 1;
+            System.out.println(total);
             break;
-        default:
-            System.out.println("아니지롱");
+        }
+    int value = 0;
+        Scanner scan = new Scanner(System.in);
 
+        do {
+            value = scan.nextInt();
+            System.out.println("입력 받은 값 " + value);
 
-
+        }while (value <= 10);
+        System.out.println("반복문 종료!");
     }
-    String str =  "바보" ;
-    switch (str) {
-        case "바보" :
-            System.out.println("안녕");
-
-        case "멍청이" :
-            System.out.println("아니다");
-            break;
-        default:
-            System.out.println("하이");
-
-
-
-    }
-
-
-
-
-    }
-
-
 
 }
