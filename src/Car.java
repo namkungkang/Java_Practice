@@ -4,8 +4,9 @@ public class Car {
         String name;
         int number;
 
-        public Car(String n) {
-                name = n;
+        public Car(String name, int number) {
+                this.name = name;
+                this.number = number;
         }
 
 }
