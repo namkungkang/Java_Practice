@@ -1,4 +1,6 @@
 
+import example.Example;
+
 import java.util.Scanner;
 
 public class CarExam {
@@ -14,6 +16,11 @@ public class CarExam {
         System.out.println(c2.number);
         System.out.println(c3.name);
         System.out.println(c3.number);
+
+        Example e1 = new Example("10",2);
+
+        System.out.println(e1.stundent_number);
+
     }
 
 }
