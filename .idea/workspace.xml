@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0951d76c-5fc1-4fb6-b480-e070ca8f5d7b" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExceptionExam2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionExam3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Throws",
+    "git-widget-placeholder": "Exception2",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/namkungkang/Desktop/JavaPractice/src/Main.java",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -54,6 +54,7 @@
     "애플리케이션.EnumExam.executor": "Run",
     "애플리케이션.ExceptionExam.executor": "Run",
     "애플리케이션.ExceptionExam2.executor": "Run",
+    "애플리케이션.ExceptionExam3.executor": "Run",
     "애플리케이션.InnerExam.executor": "Run",
     "애플리케이션.InnerExam2.executor": "Run",
     "애플리케이션.InnerExam3.executor": "Run",
